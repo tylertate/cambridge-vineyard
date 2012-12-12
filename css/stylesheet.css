@@ -198,7 +198,7 @@ article#main-body header#content-header figure {
 }
 article#main-body header#content-header figure img {
   opacity: 0.5;
-  filter: alpha "(opacity = 0.5)";
+  filter: alpha(opacity=0.5);
   zoom: 1;
 }
 article#main-body p#call-to-action {
@@ -505,12 +505,12 @@ body#whats-on h2 {
   color: #698c00;
 }
 body#see-you-sunday header#main-header nav#navigation ul li.selected {
-  border-top: 1px dotted #8c8562;
-  border-bottom: 1px dotted #8c8562;
+  border-top: 1px dotted #492e99;
+  border-bottom: 1px dotted #492e99;
 }
 body#see-you-sunday article#main-body header#content-header figure {
-  background-color: #8c8562;
+  background-color: #492e99;
 }
 body#see-you-sunday h2 {
-  color: #8c8562;
+  color: #492e99;
 }

@@ -45,7 +45,7 @@
 // Opacity
 .opacity(@opacity:100) {
 	opacity: @opacity; // Modern browsers
-	filter:alpha%("(opacity = %d)",@opacity); // IE6+
+	filter: e(%("alpha(opacity=%d)",@opacity)); // IE6+
 	zoom:1; // Trigger hasLayout in IE6-7
 }
 
